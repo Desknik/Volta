@@ -151,16 +151,6 @@ function LoadPedido() {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Pedido */
 const NoButton = document.querySelector("#No");
 const Container = document.querySelector('.container')
@@ -192,13 +182,16 @@ const NoClick = () => {
         alert("Você ta tão linda hoje.. parece minha ex kkkkj")
     }
     if(x == 6){
-        alert("Foi mal mn, é q meu cll molho, ai programou os bagui sozinho kkjkjk doideira")
+        alert("Eu disse pra darmos um tempo, e não que terminamos, pode voltando pra mim >:(")
+    }
+    if(x == 8){
+        alert("..Era trolagem, foi mal, é q meu cll molho e programou os bagui sozinho kkjkjk doideira")
     }
     if(x == 9){
-        alert("Já entendi, não precisa humilhar :(")
+        alert("Já entendi, não precisa humilhar...")
     }
     if(x == 15){
-        alert("Chega cara ,_,")
+        alert("Chega cara :(")
     }
     if(x == 1000){
         alert("Eu te falei, ainda sim eu te amo meu amor :3")
