@@ -193,6 +193,27 @@ const NoClick = () => {
     if(x == 15){
         alert("Chega cara :(")
     }
+    if(x == 17){
+        NoButton.innerText = "SIMM"
+    }
+    if(x == 18){
+        alert("IHHHH APERTOUU!! Agora não tem opcção, já aceitou!")
+    }
+    if(x == 19){
+        NoButton.innerText = "Não, te odeio!"
+    }
+    if(x == 20){
+        alert("Nossa :(.. tdb..")
+    }
+    if(x == 21){
+        NoButton.innerText = "Isso mesmo otário!"
+    }
+    if(x == 22){
+        NoButton.innerText = "Não quero mais nada cntg"
+    }
+    if(x == 23){
+        NoButton.innerText = "Não!!!"
+    }
     if(x == 1000){
         alert("Eu te falei, ainda sim eu te amo meu amor :3")
     }
