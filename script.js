@@ -106,21 +106,23 @@ function Page2(){
     }
 }
 
+const cartinha = document.querySelector("#cartinha")
+
 const page2 = document.querySelector('#page2');
 function HiddenPage2(){
-    Loading.style.display = 'flex';
+    cartinha.style.display = 'flex';
     setTimeout(() => {
-        Loading.style.opacity = '1';
+        cartinha.style.opacity = '1';
     }, "400")
     setTimeout(() => {
         page2.style.display = 'none';
     }, "1500")
     setTimeout(() => {
-        Loading.style.opacity = '0';
+        cartinha.style.opacity = '0';
     }, "2000")
     
     setTimeout(() => {
-        Loading.style.display = 'none';
+        cartinha.style.display = 'none';
         LoadPedido();
     }, "2300")
 }
@@ -150,7 +152,6 @@ function LoadPedido() {
 
 
 
-
 /* Pedido */
 const NoButton = document.querySelector("#No");
 const Container = document.querySelector('.container')
@@ -176,22 +177,19 @@ const NoClick = () => {
     NoButton.style.top=`${getRandomY()}px`;
     NoButton.style.right=`${getRandomX()}px`;
     if(x == 4){
-        alert("Se insistir vou ter que voltar para minha ex.. Tem certeza?")
+        alert("Que não oq, ta achando que vou desistir fácil?? Se reclamar vamo até casar fia kkkkk")
     }
     if(x == 5){
-        alert("Você ta tão linda hoje.. parece minha ex kkkkj")
-    }
-    if(x == 6){
-        alert("Eu disse pra darmos um tempo, e não que terminamos, pode voltando pra mim >:(")
+        alert("Vai precisar apertar mais vezes hein")
     }
     if(x == 8){
-        alert("..Era trolagem, foi mal, é q meu cll molho e programou os bagui sozinho kkjkjk doideira")
+        alert("Eu disse pra darmos um tempo, e não que terminamos, pode voltando pra mim >:(")
     }
-    if(x == 9){
-        alert("Já entendi, não precisa humilhar...")
+    if(x == 10){
+        alert("..Era trolagem, foi mal, é q meu cll molho e programou os bagui sozinho kkjkjk doideira (não era n, te amo volta amo eu mudei kkjkk)")
     }
-    if(x == 15){
-        alert("Chega cara :(")
+    if(x == 13){
+        alert("Duvido apertar mais vezes")
     }
     if(x == 17){
         NoButton.innerText = "SIMM"
@@ -200,19 +198,10 @@ const NoClick = () => {
         alert("IHHHH APERTOUU!! Agora não tem opcção, já aceitou!")
     }
     if(x == 19){
-        NoButton.innerText = "Não, te odeio!"
+        alert("Apertou de novo?? Quer casar se fala")
     }
-    if(x == 20){
-        alert("Nossa :(.. tdb..")
-    }
-    if(x == 21){
-        NoButton.innerText = "Isso mesmo otário!"
-    }
-    if(x == 22){
-        NoButton.innerText = "Não quero mais nada cntg"
-    }
-    if(x == 23){
-        NoButton.innerText = "Não!!!"
+    if(x == 19){
+        alert("Tamo casado então, pode beijar o noivo!")
     }
     if(x == 1000){
         alert("Eu te falei, ainda sim eu te amo meu amor :3")
