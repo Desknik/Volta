@@ -19,88 +19,8 @@ const button = document.querySelector('#button');
 var y=0
 function Page2(){
     switch (y) {
+        
         case 0:
-            tittle.innerText = 'Que teimosa! Não aperte, você vai se arrepender!!'
-            y++;
-            break;
-        case 1:
-            tittle.innerText = 'Eu já falei pra ti, por que insiste?'
-            y++;
-            break;
-        case 2:
-            tittle.innerText = 'Não aperta!!!! Eu já te falei!'
-            y++;
-            break;
-        case 3:
-            tittle.innerText = 'Insistente você hein'
-            y++;
-            break;
-        case 4:
-            tittle.innerText = 'Por que ta tão curiosa assim?'
-            y++;
-            break;
-        case 5:
-            tittle.innerText = 'Estou avisando...'
-            y++;
-            break;
-        case 6:
-            tittle.innerText = 'Você quer mesmo ir até o final com isso?'
-            y++;
-            break;
-        case 7:
-            tittle.innerText = 'Se tem certeza?'
-            y++;
-            break;
-        case 8:
-            tittle.innerText = 'Absoluta??'
-            y++;
-            break;
-        case 9:
-            tittle.innerText = 'Olha...'
-            y++;
-            break;
-        case 10:
-            tittle.innerText = 'Você que sabe..'
-            y++;
-            break;
-        case 11:
-            tittle.innerText = 'Tabom'
-            y++;
-            break;
-        case 12:
-            tittle.innerText = 'Você venceu'
-            y++;
-            break;
-        case 13:
-            tittle.innerText = '...'
-            button.innerText = 'Me aperte'
-            y++;
-            break;
-        case 14:
-            tittle.innerText = '??'
-            y++;
-            break;
-        case 15:
-            tittle.innerText = 'Mesmo pedindo para apertar você aperta >:(!!'
-            y++;
-            break;
-        case 16:
-            tittle.innerText = 'Pelo visto você não vai parar mesmo'
-            y++;
-            break;
-        case 17:
-            tittle.innerText = 'Então não tenho muito o que fazer...'
-            y++;
-            break;
-        case 18:
-            tittle.innerText = 'Você venceu, pode apertar..'
-            y++;
-            break;
-        case 19:
-            tittle.innerText = 'Espero que não se arrependa'
-            y++;
-            break;
-        case 20:
             HiddenPage2();
             break;
     }
